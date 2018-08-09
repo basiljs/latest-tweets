@@ -1,0 +1,31 @@
+{
+  "name": "basiljs-latest-tweets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.3.0",
+    "eslint-config-unobtrusive": "^1.2.2",
+    "eslint-plugin-jest": "^21.18.0",
+    "jest": "^23.4.2",
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "twit": "^2.2.11"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

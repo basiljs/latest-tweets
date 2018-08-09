@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Page Title</title>
+  <meta name="description" content="something">
+  <meta name="author" content="me">
+  <style>
+  body{
+    margin: 0 auto;
+    max-width: 50%;
+    min-height:100vh;
+  }
+  .flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+  }
+  .flex-item{
+    align-self: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+    font-size: 2.3em;
+  }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="flex-item">
+
+    </div>
+  </div>
+  <script>
+  document.addEventListener('DOMContentLoaded',function() {
+    let d = new Date();
+    document.querySelector('.flex-item').innerHTML = d.toString();
+});
+  </script>
+</body>
+</html>

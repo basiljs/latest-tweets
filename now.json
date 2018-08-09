@@ -1,0 +1,18 @@
+{
+  "name": "basiljs-latest-tweets",
+  "alias": "basiljs-latest-tweets",
+  "type": "npm",
+  "scale": {
+    "bru1": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "env": {
+    "SUPERSECRET":"@supersecret",
+    "TWITTER_CONSUMER_KEY": "@twitter_consumer_key",
+    "TWITTER_CONSUMER_SECRET": "@twitter_consumer_secret",
+    "TWITTER_ACCESS_TOKEN_KEY": "@twitter_access_token_key",
+    "TWITTER_ACCESS_TOKEN_SECRET": "@twitter_access_token_secret"
+  }
+}
