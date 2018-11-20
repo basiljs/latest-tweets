@@ -11,7 +11,7 @@
     "test:server": "nodemon test/server.js",
     "now:deploy": "now",
     "now:alias": "now alias",
-    "now": "npm run now:deploy ; and npm run now:alias"
+    "now": "now -e NODE_ENV=\"production\" && now alias"
   },
   "keywords": [],
   "author": "",

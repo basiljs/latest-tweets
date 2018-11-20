@@ -2,7 +2,6 @@ node_modules
 test
 coverage
 bin
-src
 .env
 .eslintrc.js
 jest.config.js
@@ -10,3 +9,4 @@ nodemon.json
 README.md
 tsconfig.json
 tslint.json
+.vscode
