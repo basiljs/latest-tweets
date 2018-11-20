@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "name": "basiljs-latest-tweets-test",
+  "name": "basiljs-latest-tweets",
+  "alias": "basiljs-latest-tweets",
   "type": "npm",
   "builds":[
     {"src":"dist/index.js", "use":"@now/node"}
