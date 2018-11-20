@@ -1,14 +1,14 @@
 {
   "name": "basiljs-latest-tweets",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "start": "NODE_ENV=production node dist/index.js",
     "watch": "tsc -w",
-    "dev":"nodemon dist/index.js",
+    "dev": "nodemon dist/index.js",
     "test": "jest",
-    "test:server":"nodemon test/server.js",
+    "test:server": "nodemon test/server.js",
     "now:deploy": "now",
     "now:alias": "now alias",
     "now": "npm run now:deploy ; and npm run now:alias"
