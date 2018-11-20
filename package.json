@@ -2,11 +2,13 @@
   "name": "basiljs-latest-tweets",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "NODE_ENV=production node index.js",
-    "dev": "nodemon index.js",
+    "start": "NODE_ENV=production node dist/index.js",
+    "watch": "tsc -w",
+    "dev":"nodemon dist/index.js",
     "test": "jest",
+    "test:server":"nodemon test/server.js",
     "now:deploy": "now",
     "now:alias": "now alias",
     "now": "npm run now:deploy ; and npm run now:alias"
@@ -21,9 +23,14 @@
     "eslint-plugin-jest": "^21.18.0",
     "jest": "^23.4.2",
     "nodemon": "^1.18.3",
-    "now": "^11.4.4"
+    "now": "^11.4.4",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
   },
   "dependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/node": "^10.12.9",
+    "@types/twit": "^2.2.20",
     "dotenv": "^6.0.0",
     "twit": "^2.2.11"
   },

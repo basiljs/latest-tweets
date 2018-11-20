@@ -1,12 +1,13 @@
-const secHeaders = require('../lib/security-headers');
+// @ts-nocheck
+const secHeaders = require('../dist/lib/security-headers/index.js');
 test('should be an instanceof object', ()=>{
-  expect(secHeaders).toBeInstanceOf(Object);
+  console.log(typeof secHeaders);
+  expect(typeof secHeaders).toBe('object');
 });
-
 test('Should be an Array',()=>{
-  expect(secHeaders.security).toBeInstanceOf(Array);
+  expect(secHeaders.default.security).toBeInstanceOf(Array);
 });
 test('Should have string values',()=>{
-  expect(secHeaders.security[0].value.constructor.name).toMatch('String');
+  expect(secHeaders.default.security[0].value.constructor.name).toMatch('String');
 });
 
