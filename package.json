@@ -6,7 +6,10 @@
   "scripts": {
     "start": "NODE_ENV=production node index.js",
     "dev": "nodemon index.js",
-    "test": "jest"
+    "test": "jest",
+    "now:deploy": "now",
+    "now:alias": "now alias",
+    "now": "npm run now:deploy ; and npm run now:alias"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +20,8 @@
     "eslint-config-unobtrusive": "^1.2.2",
     "eslint-plugin-jest": "^21.18.0",
     "jest": "^23.4.2",
-    "nodemon": "^1.18.3"
+    "nodemon": "^1.18.3",
+    "now": "^11.4.4"
   },
   "dependencies": {
     "dotenv": "^6.0.0",
