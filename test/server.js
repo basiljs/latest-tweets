@@ -7,6 +7,7 @@ process.env.NODE_ENV = 'development';
 dotenv.config({path: `${path.resolve(process.cwd(), '.env')}`});
 // }
 
+// const twreq = require('../dist/lib/twitter-req/index.js');
 const twreq = require('../dist/index.js');
 const http = require('http');
 

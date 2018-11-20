@@ -1,13 +1,21 @@
 {
-  "name": "basiljs-latest-tweets",
-  "alias": "basiljs-latest-tweets",
+  "version": 2,
+  "name": "basiljs-latest-tweets-test",
   "type": "npm",
+  "builds":[
+    {"src":"dist/index.js", "use":"@now/node"}
+  ],
+  "public": true,
+  "regions": ["bru"],
   "scale": {
     "bru1": {
       "min": 1,
       "max": 1
     }
   },
+  "routes":[
+    {"src":"/","dest":"/dist"}
+  ],
   "env": {
     "SUPERSECRET":"@supersecret",
     "TWITTER_CONSUMER_KEY": "@twitter_consumer_key",

@@ -3,4 +3,6 @@ if (process.env.NODE_ENV === 'development') {
   dotenv.config();
 }
 import twreq from './lib/twitter-req';
-export default twreq;
+
+module.exports = twreq;
+// export default twreq;

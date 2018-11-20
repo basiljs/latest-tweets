@@ -8,4 +8,5 @@ if (process.env.NODE_ENV === 'development') {
     dotenv_1.default.config();
 }
 var twitter_req_1 = __importDefault(require("./lib/twitter-req"));
-exports.default = twitter_req_1.default;
+module.exports = twitter_req_1.default;
+// export default twreq;
