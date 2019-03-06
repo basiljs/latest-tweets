@@ -3,12 +3,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var security_headers_1 = __importDefault(require("../security-headers"));
 // if (process.env.NODE_ENV === 'development') {
 //   // tslint:disable-next-line:no-console
 //   console.log(process.env.SUPERSECRET);
 // }
 var twit_1 = __importDefault(require("twit"));
+var security_headers_1 = __importDefault(require("../security-headers"));
 var twitterClient = new twit_1.default({
     access_token: process.env.TWITTER_ACCESS_TOKEN_KEY,
     access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET,

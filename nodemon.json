@@ -8,6 +8,7 @@
   "watch": [
     "./lib"
   ],
+  "exec": "./node_modules/.bin/tsc -p . && node dist/index.js",
   "env": {
     "DEBUG": false,
     "NODE_ENV":"development"
