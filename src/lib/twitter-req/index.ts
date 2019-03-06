@@ -1,10 +1,10 @@
 import http from 'http';
-import secHeaders from '../security-headers';
 // if (process.env.NODE_ENV === 'development') {
 //   // tslint:disable-next-line:no-console
 //   console.log(process.env.SUPERSECRET);
 // }
-import Twit, { PromiseResponse } from 'twit';
+import Twit from 'twit';
+import secHeaders from '../security-headers';
 
 const twitterClient = new Twit({
   access_token: process.env.TWITTER_ACCESS_TOKEN_KEY as string, // eslint-disable-line camelcase
