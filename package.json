@@ -18,7 +18,7 @@
   "license": "MIT",
   "devDependencies": {
     "cz-conventional-changelog": "2.1.0",
-    "eslint": "5.15.1",
+    "eslint": "5.16.0",
     "eslint-config-unobtrusive": "1.2.2",
     "eslint-plugin-jest": "21.18.0",
     "jest": "24.1.0",
