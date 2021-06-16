@@ -28,7 +28,7 @@
     "@types/dotenv": "6.1.1",
     "@types/node": "10.17.60",
     "@types/twit": "2.2.29",
-    "typescript": "3.9.9"
+    "typescript": "3.9.10"
   },
   "dependencies": {
     "dotenv": "^8.0.0",
