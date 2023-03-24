@@ -27,7 +27,7 @@
     "tslint": "5.20.1",
     "@types/dotenv": "6.1.1",
     "@types/node": "10.17.60",
-    "@types/twit": "2.2.30",
+    "@types/twit": "2.2.31",
     "typescript": "3.9.10"
   },
   "dependencies": {
