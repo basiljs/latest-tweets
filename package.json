@@ -21,7 +21,7 @@
     "eslint": "5.16.0",
     "eslint-config-unobtrusive": "1.2.5",
     "eslint-plugin-jest": "21.27.2",
-    "jest": "24.9.0",
+    "jest": "29.5.0",
     "nodemon": "2.0.22",
     "now": "18.0.0",
     "tslint": "5.20.1",
